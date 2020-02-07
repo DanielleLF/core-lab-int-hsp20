@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Amiri&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Amiri&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');*/
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
 
 html {
   font-size: 1rem;
-  font-family: 'Amiri', serif;
+  font-family: 'Quicksand', serif;
   color:#000;
 
 
@@ -12,27 +14,32 @@ html {
     body {
         padding:5rem 0;
 
-      animation: colorchange 30s infinite; /* animation-name followed by duration in seconds*/
+      animation: colorchange 25s infinite; /* animation-name followed by duration in seconds*/
          /* you could also use milliseconds (ms) or something like 2.5s */
       -webkit-animation: colorchange 30s infinite; /* Chrome and Safari */
     }
 
     @keyframes colorchange
     {
-      0%   {background: #d3beaa;}
-      25%  {background: #c59eb3;}
-      50%  {background: #b7a68e;}
-      75%  {background: #9f9189;}
-      100% {background: #c2b2ae;}
+      0%   {background: #FCF9B1;}
+      25%  {background: #EBE8B4;}
+      50%  {background: #FFF87D;}
+      75%  {background: #EBE017;}
+      100% {background: #FFF64D;}
     }
 
     @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
     {
-      0%   {background: #d3beaa;}
+     /* 0%   {background: #d3beaa;}
       25%  {background: #c59eb3;}
       50%  {background: #b7a68e;}
       75%  {background: #9f9189;}
-      100% {background: #c2b2ae;}
+      100% {background: #c2b2ae;}*/
+       0%   {background: #FCF9B1;}
+      25%  {background: #EBE8B4;}
+      50%  {background: #FFF87D;}
+      75%  {background: #EBE017;}
+      100% {background: #FFF64D;}
     }
 
 
@@ -44,10 +51,9 @@ a {
 
 p {
   font-size: 1rem;
-  font-family: 'Amiri', serif;
+  font-family:Quicksand, sans-serif;
   line-height: 1.5;
   margin-bottom:1rem;
-
 }
 
 
@@ -67,11 +73,16 @@ article {
 
 
 .main-headline {
-  grid-column:2 / 5;
+  grid-column:1 / 4;
   grid-row:1;
   padding: 3rem 0;
-  color:#fff;
+  color:silver;
   line-height:1.5;
+  font-weight: bold;
+  font-family:Alatsi;
+   text-shadow: 2px 2px #EB422F;
+
+
 }
 
 .lead-image {
@@ -93,14 +104,14 @@ justify-content: start;
 }
 
 .timestamp {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Quicksand, sans-serif;
     font-size:1rem;
     padding:.5rem 0;
       margin:0;
 }
 
 .byline {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Quicksand, sans-serif;
     font-size:1rem;
     font-weight:800;
     padding: 0;
@@ -124,7 +135,7 @@ justify-content: start;
 
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Quicksand, sans-serif;
   font-weight:800;
 }
 
@@ -140,7 +151,7 @@ h3 {
   font-size:2.25rem;
 }
 h4 {
-  font-size:1.5rem;
+  font-size:15px;
 }
 h5 {
   font-size:1;
@@ -150,6 +161,7 @@ p, li {
   font-size: 1rem;
   line-height: 1.5;
 }
+
 
 
 

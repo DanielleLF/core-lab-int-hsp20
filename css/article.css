@@ -6,8 +6,7 @@
 html {
   font-size: 1rem;
   font-family: 'Quicksand', serif;
-  color:#000;
-
+  color:white;
 
 }
 
@@ -17,31 +16,27 @@ html {
       animation: colorchange 25s infinite; /* animation-name followed by duration in seconds*/
          /* you could also use milliseconds (ms) or something like 2.5s */
       -webkit-animation: colorchange 30s infinite; /* Chrome and Safari */
+      background-color: black;
     }
 
-    @keyframes colorchange
+    /*@keyframes colorchange
     {
       0%   {background: #FCF9B1;}
       25%  {background: #EBE8B4;}
       50%  {background: #FFF87D;}
       75%  {background: #EBE017;}
       100% {background: #FFF64D;}
-    }
+    }*/
 
-    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+   /* @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */*/
     {
-     /* 0%   {background: #d3beaa;}
-      25%  {background: #c59eb3;}
-      50%  {background: #b7a68e;}
-      75%  {background: #9f9189;}
-      100% {background: #c2b2ae;}*/
-       0%   {background: #FCF9B1;}
+      
+       /*0%   {background: #FCF9B1;}
       25%  {background: #EBE8B4;}
       50%  {background: #FFF87D;}
       75%  {background: #EBE017;}
-      100% {background: #FFF64D;}
+      100% {background: #FFF64D;}*/
     }
-
 
 
 
@@ -65,7 +60,7 @@ main {
 
 article {
   display:grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-auto-rows:min-content;
   grid-gap: 1rem;
 
@@ -73,7 +68,7 @@ article {
 
 
 .main-headline {
-  grid-column:1 / 4;
+  grid-column:1 / 3;
   grid-row:1;
   padding: 3rem 0;
   color:silver;
@@ -119,7 +114,7 @@ justify-content: start;
 }
 
 .text-content {
- grid-column:3 / 7;
+ grid-column:3 / 8;
  grid-row:auto;
 }
 
@@ -129,9 +124,6 @@ justify-content: start;
   padding:2rem 0;
 
 }
-
-
-
 
 
 h1, h2, h3, h4, h5 {
@@ -161,8 +153,6 @@ p, li {
   font-size: 1rem;
   line-height: 1.5;
 }
-
-
 
 
 img {

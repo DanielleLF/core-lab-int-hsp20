@@ -1,0 +1,92 @@
+.ds-container {
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 1px;
+}
+
+.side1 { grid-area: 1 / 1 / 2 / 7; }
+.shortp { grid-area: 2 / 1 / 6 / 3; }
+.maincontent { grid-area: 2 / 3 / 6 / 7; } 
+
+
+h1{
+	font-family:'Open Sans',bold;
+	font-size:60px;
+}
+
+h2, h3, h4, h5, p {
+	font-family:'Quicksand';
+}
+
+h1 { 
+	font-size:60px;
+}
+
+h2 {
+	font-size:30px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+h3 {
+	font-size:20px;
+}
+
+h4 {
+	font-size:15px;
+}
+
+h5 {
+	font-size:10px;
+}
+
+.section-break {
+	margin-top: 2rem;
+}
+
+
+.primary-hue {
+    display: flex;
+    padding: 2rem 1rem;
+    color: black;
+}
+
+.color-teal {
+    background-color: #62BDC7;
+}
+
+.hexcode{
+	flex: 1;
+	text-align: center;
+}
+
+.colorname{
+	flex: 1;
+}
+
+.secondary-hue {
+    display: flex;
+	padding: 1rem 1rem;
+	color: black;
+}
+
+.color-lightpurple {
+    background-color: #C5ABF0;
+}
+
+.color-peach{
+	background-color:#FFB875;
+}
+
+.color-sand{
+	background-color:#FEEAC3;
+}
+
+section {
+	background: #ddd;
+	box-shadow: 3px 3px 2px 1px rgba(111, 111, 111, .2);
+	padding: 2rem;
+margin-bottom: 2rem;
+}

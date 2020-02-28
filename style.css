@@ -1,5 +1,5 @@
 body, html {
-	font-family:'Spartan', sans-serif;
+	font-family:'Quicksilver', sans-serif;
 	top:0;
 	left:0;
 	margin:0;
@@ -11,7 +11,7 @@ body, html {
 }
 
 .centered {
-	max-width:80%;
+	max-width:auto;
 
 }
 

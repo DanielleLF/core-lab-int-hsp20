@@ -25,6 +25,7 @@
 grid-column: 3;
 }
 
+
 .sticky {
  /* grid-column: 3;*/
   position: -webkit-sticky;
@@ -35,6 +36,7 @@ grid-column: 3;
   /*padding: 50px;
   font-size: 20px;*/
 }
+
 
 body {
 width:95%;
@@ -82,6 +84,15 @@ h5 {
    font-size:20px;
  }
 
+ h6 {
+  font-family:'Quicksand', sans-serif;
+  font-size:15px;
+    border-radius: 15px;
+    padding:15px;
+  background-color:#F5BCA3/*#E89880*/; 
+ /* border: 2px solid #b3875a;*/
+}
+
  p {
   font-family:'Quicksand';
   padding:15px;
@@ -114,3 +125,15 @@ fieldset {
 }
 
 
+a {
+  text-decoration: none;
+  color:#0077c8;
+}
+
+h3:hover {
+  background-color:#b3875a ;
+}
+
+a:hover {
+  color:#F5BCA3;
+}

@@ -17,19 +17,19 @@
 <h2>Register to vote</h2>
 </div>
 
+
 <div class="sticky">
 <div class="Sidemenu">
-    <h3> General Information </h3>
-    <h3> Qualifications </h3>
-    <h3> Personal Information </h3>
-    <h3> Organ & Tissue Donation (Optional)</h3>
+    <h3><a href="#General_Info"> General Information</a></h3>
+    <h3><a href="#Qualifications"> Qualifications </a></h3>
+    <h3><a href="#personal-info"> Personal Information </a></h3>
+    <h3><a href="#organ_tissue"> Organ & Tissue Donation (Optional)</a></h3>
 </div>
 </div> 
 
-
-<div class="Side">
+<div id="General_Info" class="Side">
 <div class="sticky">
-	<h3>General Information</h3>
+	<h6>General Information</h6>
 </div>
 </div>
 
@@ -57,16 +57,11 @@
 <h4>Verifying your identity</h4>
 
 
-<p>We’ll try to check your identity before Election Day, through the DMV number (driver’s license number or non-driver ID number), or the last four digits of your social security number, which you’ll fill in below. </p>
-
+<p>We'll try to check your identity before Election Day, through the DMV number (driver's license number or non-driver ID number), or the last four digits of your social security number, which you'll fill in below. </p>
 <p>If you do not have a DMV or social security number, you may use a valid photo ID, a current utility bill, bank statement, paycheck, government check or some other government document that shows your name and address. You may include a copy of one of those types of ID when you mail this form. </p>
-
 <p>If we are unable to verify your identity before Election Day, you will be asked for ID when you vote for the first time. </p>
-
 <h4>Send or deliver this form</h4>
-
 <p>Fill out the form below. Your information will be checked for any errors upon submission of this form, and you will be given an opportunity to correct any issues. Once complete, a PDF version of your voter registration form will be generated for display or download (depending on your system). Please note that you will need to sign and date your form before submitting it to your local board of elections by mail or in person.</p>
-
 <h4>By signing the voter registration portion of the form, you will be attesting to the following information:</h4>
 
 <ul>
@@ -93,18 +88,16 @@ registered to vote.</p>
 
 <h4>Questions?</h4>
 
-<p>Call your County Board of Elections listed below or 1-800-FOR-VOTE(TDD/TTY Dial 711)</p>
-
-<p>Find answers or tools on our website www.elections.ny.gov</p>
+<p>Call your County Board of Elections listed below or 1-800-FOR-VOTE (TDD/TTY Dial 711)<br>
+Find answers or tools on our website www.elections.ny.gov</p>
 
 <h4>It is a crime to procure a false registration or to furnish false information to the Board of Elections.</h4>
 
 </div>
 
-
-<div class="Side">
+<div id="Qualifications" class="Side">
 <div class="sticky">
-<h3>Qualifications</h3>
+<h6>Qualifications</h6>
 </div>
 </div>
 
@@ -146,9 +139,9 @@ registered to vote.</p>
 <br><br>
 </div>
 
-<div class="Side">
+<div id="personal-info" class="Side">
 <div class="sticky">
-	<h3>Personal Information</h3>
+	<h6>Personal Information</h6>
 </div>
 </div>
 
@@ -331,7 +324,7 @@ registered to vote.</p>
 <fieldset>
 <legend>10-Voting history: Have you voted before?
 </legend>
-<br><br>
+<br>
 <input aria-required="false" type="radio" name="Have you voted before" id="voted_Yes" value="Yes"><label for="voted_Yes" class="inline">Yes, I have voted before. </label>
 <br><br>
 <input aria-required="false" type="radio" name="Have you voted before" id="voted_No" value="No"><label for="voted_No" class="inline">No, I have not voted before. </label>
@@ -349,8 +342,7 @@ registered to vote.</p>
 
 <fieldset>
 <legend>12-Voting information that has changed <span class="star">*</span> <em>Skip if this has not changed or you have not voted before.</em></legend>
-
-<br><br>
+<br>
 <label for="previous_name">Your name was </label>
 <input aria-required="false" type="text" name="VHName" id="previous_name">
 <br><br>
@@ -424,12 +416,11 @@ You must make 1 selection</em></legend>
 <input aria-required="false" type="checkbox" name="ElectionDayWorker" id="Election_Day_Worker" value="Yes"> <label for="Election_Day_Worker" class="inline">I would like to be an Election Day worker. </label>
 </fieldset>
 </div>
-<!-- <hr style="color:#cccccc"> -->
 
 <br><br>
-<div class="Side">
+<div id="organ_tissue" class="Side">
 <div class="sticky">
-<h3>(Optional) Register to donate your organs and tissues</h3> </div>
+<h6>(Optional) Register to donate your organs and tissues</h6> </div>
 </div>
 
 <div class="middle">
@@ -492,7 +483,7 @@ You must make 1 selection</em></legend>
 <br>
 <input aria-required="false" type="radio" name="OGender" id="OMale" value="Male">
 <label for="OMale" class="inline">Male </label>
-<br><br>
+<br>
 <input aria-required="false" type="radio" name="OGender" id="OFemale" value="Female">
 <label for="OFemale" class="inline">Female </label>
 </fieldset>
@@ -508,7 +499,7 @@ You must make 1 selection</em></legend>
 
 <fieldset>
 <legend>Height information  <span class="star">*</span> <em>Please specify your height in feet and inches below.</em> </legend>
-<br><br>
+<br>
 <input aria-required="false" type="number" min="0" max="8" maxlength="1" name="OHeightFeet" id="organ_donation_height_feet"> 
 <label for="organ_donation_height_feet" class="inline">Feet </label>
 <br><br>
@@ -519,7 +510,7 @@ You must make 1 selection</em></legend>
   
 <fieldset>
 <legend>Identification information</legend>
-<br><br>
+<br>
 <label for="OEmail">Email Address </label>
 <input aria-required="false" type="email" name="OEmail" id="OEmail">
 <br><br>

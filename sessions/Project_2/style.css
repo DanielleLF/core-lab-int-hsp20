@@ -113,6 +113,7 @@ legend {
 
 label {
    font-family:'Quicksand';
+
 }
 
 .desc {
@@ -136,4 +137,28 @@ h3:hover {
 
 a:hover {
   color:#F5BCA3;
+}
+
+input {
+	border: 2px solid #F5BCA3; 
+	 border-radius: 15px;
+	 background-color: #F5BCA3;
+	 padding:5px;
+}
+
+.sub {
+	text-align: center;
+}
+
+input:hover{
+	 background-color:#b3875a 
+}
+
+#submit{ 
+color: #0077c8;
+font-size: 15px;
+ }
+
+#submit:hover {
+ 	color:#F5BCA3;	
 }

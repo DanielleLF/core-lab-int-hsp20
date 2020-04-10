@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Design Systems</title>
+	 <link href="style.css" rel="stylesheet" type="text/css">
+	 <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet"> 
+	 <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+
+<div class="ds-container">
+<div class="title"> 
+<h1 class="header"> PASTELLI </h1>
+
+</div>
+
+<div class="shortp" id="section"> 
+<h3> Design principles</h3>
+<p> Each piece is part of a greater whole and should contribute positively to the system at scale. There should be no isolated features or outliers.
+<br>
+<br>
+We’re focused when it comes to both design and functionality. Our work should speak boldly and clearly to this focus.
+<br>
+<br>
+Design should reinforce the meaning of content, not distract from it. We prioritize worthwhile communication over decoration. If an aspect of the design doesn’t enhance the content, we should remove it.
+<br>
+<br>
+Our use of motion breathes life into our products, and allows us to communicate with users in easily understood ways.
+<br>
+<br>
+We create sites to welcome the widest possible audience, free of obstacles. Be mindful of the broad range of human abilities and disabilities, as well as the variety of devices, browsers, and networks people use to access our sites.</p>
+</div>
+
+<div class="maincontent">
+
+  <section >
+        <h3 class="section-label">Adjustments</h3>
+        <div>
+        <label>Change Background</label>
+        <button type="button" onclick="changeBodyBg('#62BDC7');">DS Teal</button>
+        <button type="button" onclick="changeBodyBg('#C5ABF0');">DS Light Purple</button>
+        <button type="button" onclick="changeBodyBg('#FFB875');">DS Peach</button>
+        <button type="button" onclick="changeBodyBg('#FEEAC3');">DS Sand</button>
+
+    </div>
+    <br>
+    <div>
+        <label>Change Heading text color</label>
+        <button type="button" onclick="changeHeaderColor('#FEEAC3');">DS Sand</button>
+        <button type="button" onclick="changeHeaderColor('#C5ABF0');">DS Light Purple</button>
+        <button type="button" onclick="changeHeaderColor('#FFB875');">DS Peach</button>
+        <button type="button" onclick="changeHeaderColor('#62BDC7');">DS Teal</button>
+
+    </div>
+      <div>
+        <label>Change Section Background</label>
+        <button type="button" onclick="changeSectionBG('#62BDC7');">DS Teal</button>
+        <button type="button" onclick="changeSectionBG('#C5ABF0');">DS Light Purple</button>
+        <button type="button" onclick="changeSectionBG('#FFB875');">DS Peach</button>
+        <button type="button" onclick="changeSectionBG('#FEEAC3');">DS Sand</button>
+
+    </div>
+      </section>
+
+<div id="section">
+<section>
+ <h3 class="section-label">Styles</h3>
+<h4 class="section-break">Typography</h4>
+    <h2 class="header">H1 headline</h2>
+	<h3 class="header">H2 headline</h3>
+	<h4 class="header">H3 headline</h4>
+	<h5 class="header">H4 headline</h5>
+	<h6 class="header">H5 headline</h6>
+
+<br>
+ <p> This is what body copy looks like. Strategic design means designing for a specific objective. More often than not, that objective is growing a business. But it’s important to recognize that there’s a difference between being strategic by being the conduit between the business and the user, and designing for the business alone.</p>
+
+<h3 class="section-break">Colors</h3>
+
+<div class="primary-hue color-teal">
+<div class="colorname">
+	<p>DS Teal</p>
+</div>
+<div class="hexcode">
+	<p >#62BDC7</p>
+</div>
+</div>
+
+<div class="secondary-hue color-lightpurple">
+<div class="colorname">
+<p>DS Light Purple </p>
+<div class="hexcode">
+<p >#C5ABF0</p>
+</div>	
+</div>
+</div>
+
+<div class="secondary-hue color-peach">
+<div class="colorname">
+<p>DS Peach</p>
+<div class="hexcode">
+<p >#FFB875</p>
+</div>	
+</div>
+</div>
+
+<div class="secondary-hue color-sand">
+<div class="colorname">
+<p>DS Sand</p>
+<div class="hexcode">
+<p >#FEEAC3</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<div class="Elements">
+<section>
+	<h3 class="section-label">Components</h3>
+        <div class="component-group">
+          <div class="cg-1">
+            <button class="button button1">Primary</button>
+            <button class="button button2">Secondary</button>
+            <button class="button button3">Disabled</button>
+        </div>
+        <div class="cg-2">
+          <form>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="fname">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lname">
+          </form>
+        </div>
+        <div class="cg-3">
+          <div class="dropdown">
+          <button class="dropbtn">Dropdown</button>
+           <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+             </div>
+          </div>
+        </div>
+          <div class="cg-1">
+            <label class="switch">
+            <input type="checkbox" checked="">
+            <span class="slider round"></span>
+            </label>
+        </div>
+        <div class="cg-2">
+         <label for="start"> Date:</label>
+          <input type="date" class="pointer" id="start" name="trip-start" value="2020-02-28" min="2019-01-01" max="2020-12-31">
+        </div>
+        <div class="cg-3">
+          <div class="loader">
+          </div>
+          </div>
+         
+  <div class="cg-1">
+  <h4>Checkboxes</h4>
+  <p> <input class="check" type="checkbox" checked="checked">
+  <label>Milk</label></p>
+  <p>
+  <input class="check" type="checkbox">
+  <label> Sugar</label></p>
+  <p>
+  <input class="check" type="checkbox" ><!-- disabled -->
+  <label>Lemon <!-- (Disabled) --></label></p>
+</div>
+
+<div class="slidecontainer">
+<h4> Slider </h4>
+  <input type="range" min="1" max="100" value="50" class="slider1" id="myRange">
+</div>
+
+      </div>
+  </section>
+
+
+	<section>
+        <h3 class="section-label">Design Pattern</h3>
+       <div class="design-patterns-group">
+            <article>
+              <h4>Card with image</h4>
+              <div class="card-image">
+                <img src="../../images/00sl-stress-worry-anxeity-superJumbo.jpg">
+                <h4>The Difference Between Worry, Stress and Anxiety</h4>
+                <p>You probably experience worry, stress or anxiety at least once on any given day. Nearly 40 million people in the U.S. suffer from an anxiety disorder, according to the Anxiety and Depression Association of America. Three out of four Americans reported feeling stressed in the last month, a 2017 study found. But in one of these moments, if asked which you were experiencing — worry, stress or anxiety — would you know the difference?</p>
+
+<p>I reached out to two experts to help us identify — and cope with — all three.</p>
+
+<a href="https://www.nytimes.com/2020/02/26/smarter-living/the-difference-between-worry-stress-and-anxiety.html?utm_source=pocket-newtab">Link to Full NYTimes Article </a> 
+              </div>
+            </article>
+
+            <article>
+              <h4>Profile card</h4>
+              <div class="profile-card">
+                <img src="../../images/bernie-sanders-portrait-campaign01.jpg">
+                <h4> Bernie Sanders</h4>
+                <p class="title text-white">United States Senator</p>
+                <p class="text-white">Bernie Sanders is running for the 2020 United States presidential election.</p>
+                <button class="button button1">Contact Sanders</button>
+
+              </div>
+            </article>
+            <article>
+              <h4>Sign up form</h4>
+              <form action="/action_page.php" style="">
+  <div class="sign-up-container">
+    <p>Please fill in this form to create an account.</p>
+    <hr size="3" noshade>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required="">
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required="">
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required="">
+    
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+    </article>
+        
+    <article> 
+    <h4>Progress Bar Labels</h4>
+
+<div class="bar">
+<div class="shape1">
+  <div class="bar Teal center" style="width:25%">25%</div>
+</div><br>
+
+<div class="shape2">
+  <div class="bar Purple center" style="width:50%">50%</div>
+</div><br>
+
+<div class="shape3">
+  <div class="bar Peach" style="width:75%">75%</div>
+</div><br>
+</div>
+    </article>
+
+
+        </div>
+    </section>
+
+
+	<section>
+        <h3 class="section-label">Regions</h3>
+        <p>...</p>
+    </section>
+	
+	<section>
+        <h3 class="section-label">Content</h3>
+        <p>...</p>
+    </section>
+
+    <section>
+        <h3 class="section-label">Layout</h3>
+        <p>...</p>
+    </section>
+
+	<section>
+        <h3 class="section-label">Usability</h3>
+        <p>...</p>
+    </section>
+
+ </div>
+</div>
+</div>
+
+</body>
+
+ <script type="text/javascript" src="Jscript.js"></script>
+</html>

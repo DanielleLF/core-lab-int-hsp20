@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="style_live.css">
     <script src="/script.js" defer></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/posenet"></script> -->
+    <script src="video.js" defer></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"> </script> 
   </head>
 
@@ -26,21 +30,14 @@
  </div> 
 
  <div class="frame">
- 	<div class="dot"></div>
+
+    <video id="video" playsinline style="object-fit: cover; overflow: hidden;"></video>
+      <div class="dot"></div>
  </div>
- <div class="dot2"></div>
+  <div class="dot2"></div>
 
 
 
-
-</div>
-	
-
-
-
-
-
-    
  <div id="fix-bar">
     <div class="bar"> </div>
       <div class="home"><i class="fas fa-home"></i></div> &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp&nbsp 
@@ -49,12 +46,6 @@
        <div class="search"><i class="fas fa-search"></i></div> &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp&nbsp &nbsp 
        <div class="profile"><i class="far fa-user-circle"></i></div>
   </div>
-
-
-
-
-
-
 
 
   </body>
